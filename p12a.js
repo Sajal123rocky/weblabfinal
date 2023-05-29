@@ -1,0 +1,23 @@
+// const Stack=require('./stack');
+// let st=new Stack();
+const st=require('./stack1');
+const q=require('./queue');
+st.insert(1);
+st.insert(2);
+st.insert(3);
+st.insert(4);
+console.log("before");
+st.display();
+console.log("removed is "+st.remove());
+console.log("after removing");
+st.display();
+q.enque(1);
+q.enque(2);
+q.enque(3);
+q.enque(4)
+q.enque(5);
+console.log("before");
+q.display();
+console.log("removed is "+q.deque());
+console.log("after removing");
+q.display();
